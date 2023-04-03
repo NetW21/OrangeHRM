@@ -84,6 +84,7 @@ admin.VerifyAdminTab();
 admin.verifyusername();
 admin.veifyuserrole();
 Assert.fail();
+System.out.println("Test Case Execution");
 }
 
 //@AfterMethod
@@ -94,6 +95,8 @@ Assert.fail();
 
 @AfterClass()
 public void afterClass() {
+	
+	System.out.println("Afterclass");
 	
 	//driver.quit();
 	
